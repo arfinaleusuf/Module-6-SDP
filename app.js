@@ -14,12 +14,30 @@
 // console.log(...numbers, ...numbers2);
 // console.log(max);
 
-const person = {
-    name: "test",
-    age: 10,
-    friends: ["karim", "rahim", 'jobbar'],
+// const person = {
+//     name: "test",
+//     age: 10,
+//     friends: ["karim", "rahim", 'jobbar'],
+// };
+
+// const {age ,friends} = person;
+
+// console.log(friends);
+
+function sum(num1, num2)
+{
+    const result = num1 + num2;
+    return result;
 };
 
-const {age ,friends} = person;
+const output2 = (num1, num2) => {
+    return num1 + num2;
+};
 
-console.log(friends);
+// const output = sum(10,20);
+// console.log(output2);
+
+const sum2 =(num1, num2 )=> num1 + num2;
+
+const out2 = sum2(10,20);
+console.log(out2)
