@@ -61,6 +61,14 @@ const products = [
 // const result = products.find(pd => pd.id == 3);
 // console.log(result); // na pele undefind return kore
 
-const result = products.filter(product => product.color == "black");
+// const result = products.filter(product => product.color == "black");
 
+// console.log(result);
+
+// const sum = products.map(product => product.id*2);
+// console.log(sum);
+
+const result = products.forEach(product=> {
+    console.log(product.id);
+});
 console.log(result);
