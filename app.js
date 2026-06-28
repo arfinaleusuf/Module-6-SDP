@@ -49,11 +49,14 @@ const products = [
     { id: 5, name: "xiaomi", description: 'this is xiaomi', price: 500, color: "black" },
 ]
 
-for(let i = 0; i<products.length; i++)
-{
-    const element = products[i];
-    if(element.id == 3)
-    {
-        console.log(element);
-    }
-}
+// for(let i = 0; i<products.length; i++)
+// {
+//     const element = products[i];
+//     if(element.id == 3)
+//     {
+//         console.log(element);
+//     }
+// }
+
+const result = products.find(pd => pd.id == 3);
+console.log(result);
