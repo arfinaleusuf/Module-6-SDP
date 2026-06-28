@@ -58,5 +58,9 @@ const products = [
 //     }
 // }
 
-const result = products.find(pd => pd.id == 3);
-console.log(result); // na pele undefind return kore
+// const result = products.find(pd => pd.id == 3);
+// console.log(result); // na pele undefind return kore
+
+const result = products.filter(product => product.color == "black");
+
+console.log(result);
