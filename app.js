@@ -113,3 +113,5 @@ const frieds = ['shakib', 'mushfiq', 'mustafiz', 'arfinaleusuf']
 const bigFriend = checkFrind(frieds);
 
 console.log(bigFriend);
+
+alert()
