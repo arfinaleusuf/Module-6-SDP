@@ -59,4 +59,4 @@ const products = [
 // }
 
 const result = products.find(pd => pd.id == 3);
-console.log(result);
+console.log(result); // na pele undefind return kore
