@@ -24,8 +24,7 @@
 
 // console.log(friends);
 
-function sum(num1, num2)
-{
+function sum(num1, num2) {
     const result = num1 + num2;
     return result;
 };
@@ -37,7 +36,24 @@ const output2 = (num1, num2) => {
 // const output = sum(10,20);
 // console.log(output2);
 
-const sum2 =(num1, num2 )=> num1 + num2;
+// const sum2 =(num1, num2 )=> num1 + num2;
 
-const out2 = sum2(10,20);
-console.log(out2)
+// const out2 = sum2(10,20);
+// console.log(out2)
+
+const products = [
+    { id: 1, name: "xiaomi", description: 'this is xiaomi', price: 500, color: "black" },
+    { id: 2, name: "iphone", description: 'this is iphone', price: 1000, color: "golden" },
+    { id: 3, name: "xiaomi", description: 'this is xiaomi', price: 500, color: "black" },
+    { id: 4, name: "xiaomi", description: 'this is xiaomi', price: 500, color: "gray" },
+    { id: 5, name: "xiaomi", description: 'this is xiaomi', price: 500, color: "black" },
+]
+
+for(let i = 0; i<products.length; i++)
+{
+    const element = products[i];
+    if(element.id == 3)
+    {
+        console.log(element);
+    }
+}
